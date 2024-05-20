@@ -1,9 +1,9 @@
 import "./App.css";
-import SignupForm from "./components/SignupForm";
+import BetterSignupForm from "./components/BetterSingUpForm";
 function App() {
   return (
     <>
-      <SignupForm />
+      <BetterSignupForm />
     </>
   );
 }

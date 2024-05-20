@@ -1,0 +1,18 @@
+.BetterSignupForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.BetterSignupForm div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+.BetterSignupForm div input {
+  border: none;
+  height: 2rem;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
