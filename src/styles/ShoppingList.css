@@ -1,0 +1,33 @@
+.ShoppingList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  background-color: aliceblue;
+  padding: 24px 48px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 100px 10px rgba(255, 255, 255, 0.1);
+  width: 90%;
+  color: #000;
+}
+
+.ShoppingList .clear-btn {
+  width: max-content;
+  background-color: red;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+ul div {
+  display: flex;
+  justify-content: space-between;
+}
+ul li {
+  text-transform: capitalize;
+}
+.deleteItemBtn {
+  background-color: red;
+  padding: 2px 4px;
+}

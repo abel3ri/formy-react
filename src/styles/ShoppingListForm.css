@@ -1,0 +1,21 @@
+.ShoppingListForm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ShoppingListForm div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+.ShoppingListForm div input {
+  border: none;
+  height: 2rem;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.ShoppingListForm div:last-child {
+  flex-direction: row;
+}
