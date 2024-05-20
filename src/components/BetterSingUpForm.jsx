@@ -3,12 +3,8 @@ import "../styles/BetterSignupForm.css";
 export default function BetterSignupForm() {
   const [formState, setFormState] = useState({ firstName: "", lastName: "" });
   const updateFormValue = (event) => {
-    const fieldName = event.target.name;
-    const value = event.target.value;
-
     setFormState((formState) => {
-      formState[fieldName] = value;
-      return { ...formState };
+      return { ...formState, [event.target.name]: event.target.value };
     });
   };
   return (
