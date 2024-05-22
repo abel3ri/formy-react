@@ -1,9 +1,9 @@
 import "./App.css";
-import ShoppingList from "./components/ShoppingList";
+import RegistrationForm from "./components/RegistrationForm";
 function App() {
   return (
     <>
-      <ShoppingList />
+      <RegistrationForm />
     </>
   );
 }

@@ -1,0 +1,33 @@
+.RegistrationFormContainer {
+  background-color: #303030;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 2rem 4rem;
+  width: 24rem;
+}
+.RegistrationForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.RegistrationForm .input-container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.4rem;
+}
+.RegistrationForm .input-container label {
+  align-self: self-start;
+}
+.RegistrationForm .input-container input {
+  width: auto;
+  border-radius: 8px;
+  padding: 0.4rem 0.5rem;
+  border: none;
+  height: 2rem;
+}
+.RegistrationForm .input-container .text-danger {
+  color: rgb(245, 82, 82);
+  align-self: flex-start;
+}
